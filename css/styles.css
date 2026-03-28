@@ -35,13 +35,27 @@ nav {
     align-items: center;
     max-width: 720px;
     margin: 0 auto;
-    padding: 1.5rem 1.5rem;
+    padding: 2rem 1.5rem;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 .logo {
     font-weight: 700;
     font-size: 1.1rem;
     letter-spacing: -0.02em;
+}
+
+.nav-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #e5e5e7;
 }
 
 nav ul {
@@ -76,7 +90,7 @@ section {
 /* ===== HERO ===== */
 
 #hero {
-    margin-top: 6rem;
+    margin-top: 3rem;
 }
 
 #hero h1 {
